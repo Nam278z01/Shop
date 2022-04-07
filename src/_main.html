@@ -8,13 +8,92 @@
     <title>Shop</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body ng-app="myApp">
 
-    
-   
-    <div ng-view>
+    <div id="root">
+        <!-- Header -->
+        <header class="h-[124px]">
+           <div class="fixed left-0 w-full z-50">
+
+              <div class="flex h-[70px] w-full bg-[#f7f8fa]">
+                <div class="flex h-[70px] w-2/5 items-center">
+                  <a href="#" class="h-[70px] leading-[70px] inline-block font-bold text-xl px-[10px] bg-[#fff]">NỮ</a>
+                </div>
+                <div class="px-5 h-[70px] w-1/5 leading-[70px] text-center text-4xl font-extrabold">NIEHS</div>
+                <div class="flex h-[70px] w-2/5 justify-end mr-5 text-[#666]">
+                  <div class="relative h-[70px] flex justify-center items-center text-3xl mr-1 cursor-pointer p-1 hover:bg-white">
+                    <i class='bx bx-user'></i>
+                  </div>
+                  <div class="relative h-[70px] flex justify-center items-center text-3xl ml-1 cursor-pointer p-1 hover:bg-white">
+                    <i class='bx bx-cart' ></i>
+                    <span class="text-sm font-bold ml-1">1</span>
+                  </div>
+                </div>
+              </div>
+
+              <nav class="flex justify-center items-center h-[54px] w-full px-5 bg-[#fff] shadow-[0_4px_6px_-2px_#f8f8f8]">
+
+                <div class="flex h-[54px] items-center w-3/4">
+                  <div class="group">
+                    <a href="#" class="relative inline-block h-[54px] px-[15px] text-[#000] text-xs font-medium leading-[54px]">
+                      <div class="border-b-2 border-transparent group-hover:border-black h-[54px]">TRANG CHỦ</div>
+                    </a>
+                  </div>
+                  <div class="group">
+                    <a href="#" class="relative inline-block h-[54px] px-[15px] text-[#000] text-xs font-medium leading-[54px]">
+                      <div class="border-b-2 border-transparent group-hover:border-black h-[54px]">HÀNG MỚI</div>
+                    </a>
+                  </div>
+                  <div class="group">
+                    <a href="#" class="relative inline-block h-[54px] px-[15px] text-xs font-medium leading-[54px] text-[#ed354b]">
+                      <div class="border-b-2 border-transparent group-hover:border-black h-[54px]">SALE</div>
+                    </a>
+                  </div>
+                  <div class="group">
+                    <a href="#" class="relative inline-block h-[54px] px-[15px] text-[#000] text-xs font-medium leading-[54px]">
+                      <div class="border-b-2 border-transparent group-hover:border-black h-[54px]">XU HƯỚNG</div>
+                    </a>
+                  </div>
+                  <div class="group">
+                    <a href="#" class="relative inline-block h-[54px] px-[15px] text-[#000] text-xs font-medium leading-[54px]">
+                      <div class="border-b-2 border-black h-[54px]">SẢN PHẨM</div>
+                    </a>
+                  </div>
+                  <div class="group">
+                    <a href="#" class="relative inline-block h-[54px] px-[15px] text-[#000] text-xs font-medium leading-[54px]">
+                      <div class="border-b-2 border-transparent group-hover:border-black h-[54px]">GIỚI THIỆU</div>
+                    </a>
+                  </div>
+                </div>
+
+                <form class="w-[250px] h-[40px] relative">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm..." class="h-full w-full border border-[rgb(0 0 0 / 10%)] pl-3 pr-14 focus:outline-none focus:border-black text-xs">
+                    <button class="absolute top-0 right-0 w-[40px] h-[40px] text-[30px] flex justify-center items-center text-white bg-black hover:bg-[rgba(34,34,34,.8)]">
+                      <i class='bx bx-search-alt-2'></i>
+                    </button>
+                </form>
+
+              </nav>
+           </div>
+        </header>
+
+        <!-- Main -->
+        <ng-view>
+
+        </ng-view>
+
+        <!-- Footer -->
+        <footer class="bg-[#fafafa] pt-[60px] pb-[20px]">
+
+        </footer>
 
     </div>
 
@@ -24,6 +103,12 @@
             $routeProvider
                 .when("/", {
                     templateUrl: "./home.html"
+                })
+                .when("/product", {
+                    templateUrl: "./product.html"
+                })
+                .when("/cart", {
+                    templateUrl: "./product.html"
                 })
         });
     </script>
