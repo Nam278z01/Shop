@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/dist/output.css" rel="stylesheet">
 	<title>Shop</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+	<script src="../controller/app.js"></script>
 </head>
 
 <body ng-app="myApp">
@@ -74,6 +75,7 @@
 						</div>
 					</div>
 
+					<!-- Search -->
 					<form class="w-[250px] h-[40px] relative">
 						<input type="text" placeholder="Tìm kiếm sản phẩm..."
 							class="h-full w-full border border-[rgb(0 0 0 / 10%)] pl-3 pr-14 focus:outline-none focus:border-black text-xs" />
@@ -83,6 +85,7 @@
 						</button>
 					</form>
 
+					<!-- User/Cart -->
 					<div class="flex h-[58px] justify-end text-black ml-5 pr-[15px]">
 						<div
 							class="relative h-[58px] flex justify-center items-center text-3xl mr-1 cursor-pointer p-1 hover:bg-white">
@@ -90,8 +93,8 @@
 						</div>
 						<div
 							class="relative h-[58px] flex justify-center items-center text-3xl ml-1 cursor-pointer p-1 hover:bg-white">
-							<i class='bx bx-cart'></i>
-							<span class="text-sm font-bold ml-1 absolute left-1/2 top-[10px] inline-block bg-white rounded-full">1</span>
+							<i class='bx bx-cart bx-tada' ></i>
+							<span class="text-sm font-bold ml-1 absolute left-1/2 top-[10px] bg-[#f2f2f2] min-w-[15px] min-h-[15px] text-center block rounded-full">1</span>
 						</div>
 					</div>
 				</nav>
@@ -109,25 +112,6 @@
 		</footer>
 
 	</div>
-
-	<script>
-		var app = angular.module("myApp", ["ngRoute"]);
-		app.config(function ($routeProvider) {
-			$routeProvider
-				.when("/", {
-					templateUrl: "./home.html"
-				})
-				.when("/product", {
-					templateUrl: "./product.html"
-				})
-				.when("/cart", {
-					templateUrl: "./cart.html"
-				})
-				.when("/details", {
-					templateUrl: "./details.html"
-				})
-		});
-	</script>
 
 </body>
 
