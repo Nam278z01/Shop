@@ -1,0 +1,41 @@
+{
+    "colors": [
+        {
+            "sizes": [
+                { "size_id": 9, "quantity": 112, "size_name": "M" },
+                { "size_id": 10, "quantity": 43, "size_name": "L" },
+                { "size_id": 11, "quantity": 11, "size_name": "XL" }
+            ],
+            "color_id": 3,
+            "color_name": "Xanh lá",
+            "product_price": 179000,
+            "product_image1": "160920611249ad39d73eeee11fbaac26e377576d23_thumbnail_900x.webp",
+            "product_image2": "1609206120a804b3017788c7d41c18305cd9e71fce_thumbnail_900x.webp",
+            "product_image3": "1609206123447c39a80f62252d15ac6cc6f798f091_thumbnail_900x.webp",
+            "product_image4": null,
+            "product_image5": null
+        },
+        {
+            "sizes": [
+                { "size_id": 12, "quantity": 12, "size_name": "M" },
+                { "size_id": 13, "quantity": 123, "size_name": "L" },
+                { "size_id": 14, "quantity": 12, "size_name": "XL" }
+            ],
+            "color_id": 4,
+            "color_name": "Màu xanh nhạt",
+            "product_price": 189000,
+            "product_image1": "1618211892e75457451d549d7d4db079b5e090e11a_thumbnail_900x.webp",
+            "product_image2": "16182118953f87e2f1faaf757c2337ab4ff3964c03_thumbnail_900x.webp",
+            "product_image3": "16182119007c0cb3990a3621e2af7968d5249a6f28_thumbnail_900x.webp",
+            "product_image4": "16182119051c4f9b7b948d195033dd19eb8e742ac2_thumbnail_900x.webp",
+            "product_image5": null
+        }
+    ],
+    "max_price": 189000,
+    "min_price": 179000,
+    "product_id": 3,
+    "product_name": "Áo sơ mi màu trơn Giải trí",
+    "quantity_sold": 0,
+    "product_discount": 30,
+    "product_description": null
+}

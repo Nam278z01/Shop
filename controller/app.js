@@ -5,12 +5,14 @@ app.config(function ($routeProvider) {
             templateUrl: "./home.html"
         })
         .when("/product", {
-            templateUrl: "./product.html"
+            templateUrl: "./product.html",
+            controller: "ProductController"
         })
         .when("/cart", {
             templateUrl: "./cart.html"
         })
         .when("/details", {
-            templateUrl: "./details.html"
+            templateUrl: "./details.html",
+            controller: "ProductDetailsController"
         })
 });

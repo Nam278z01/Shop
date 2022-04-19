@@ -1,0 +1,97 @@
+[
+    {
+        "colors": [
+            {
+                "sizes": [
+                    { "size_id": 1, "quantity": 10, "size_name": "XS" },
+                    { "size_id": 2, "quantity": 23, "size_name": "S" },
+                    { "size_id": 3, "quantity": 32, "size_name": "M" },
+                    { "size_id": 4, "quantity": 14, "size_name": "L" },
+                    { "size_id": 5, "quantity": 5, "size_name": "XL" }
+                ],
+                "color_id": 1,
+                "color_name": "Đen",
+                "product_price": 142000,
+                "product_image1": "1610954054037523ce2e1b5541c69040ccb4102400_thumbnail_900x.webp",
+                "product_image2": "1610954057e9d333c568dd4f28a5fd56343acb912e_thumbnail_900x.webp",
+                "product_image3": "16109540614aabaa892deb01c5d59b17e73326a2a8_thumbnail_900x.webp",
+                "product_image4": "1610954064b4d703949275742134916533ca2c4253_thumbnail_900x.webp",
+                "product_image5": "16109540670d4cab359190a6ff9e445efeb15b2a6b_thumbnail_900x.webp"
+            }
+        ],
+        "max_price": 142000,
+        "min_price": 142000,
+        "product_id": 1,
+        "product_name": "Áo sơ mi Nút màu trơn Thanh lịch",
+        "quantity_sold": 0,
+        "product_discount": 40,
+        "product_description": null
+    },
+    {
+        "colors": [
+            {
+                "sizes": [
+                    { "size_id": 9, "quantity": 112, "size_name": "M" },
+                    { "size_id": 10, "quantity": 43, "size_name": "L" },
+                    { "size_id": 11, "quantity": 11, "size_name": "XL" }
+                ],
+                "color_id": 3,
+                "color_name": "Xanh lá",
+                "product_price": 179000,
+                "product_image1": "160920611249ad39d73eeee11fbaac26e377576d23_thumbnail_900x.webp",
+                "product_image2": "1609206120a804b3017788c7d41c18305cd9e71fce_thumbnail_900x.webp",
+                "product_image3": "1609206123447c39a80f62252d15ac6cc6f798f091_thumbnail_900x.webp",
+                "product_image4": null,
+                "product_image5": null
+            },
+            {
+                "sizes": [
+                    { "size_id": 12, "quantity": 12, "size_name": "M" },
+                    { "size_id": 13, "quantity": 123, "size_name": "L" },
+                    { "size_id": 14, "quantity": 12, "size_name": "XL" }
+                ],
+                "color_id": 4,
+                "color_name": "Màu xanh nhạt",
+                "product_price": 189000,
+                "product_image1": "1618211892e75457451d549d7d4db079b5e090e11a_thumbnail_900x.webp",
+                "product_image2": "16182118953f87e2f1faaf757c2337ab4ff3964c03_thumbnail_900x.webp",
+                "product_image3": "16182119007c0cb3990a3621e2af7968d5249a6f28_thumbnail_900x.webp",
+                "product_image4": "16182119051c4f9b7b948d195033dd19eb8e742ac2_thumbnail_900x.webp",
+                "product_image5": null
+            }
+        ],
+        "max_price": 189000,
+        "min_price": 179000,
+        "product_id": 3,
+        "product_name": "Áo sơ mi màu trơn Giải trí",
+        "quantity_sold": 0,
+        "product_discount": 40,
+        "product_description": null
+    },
+    {
+        "colors": [
+            {
+                "sizes": [
+                    { "size_id": 6, "quantity": 124, "size_name": "M" },
+                    { "size_id": 7, "quantity": 55, "size_name": "L" },
+                    { "size_id": 8, "quantity": 33, "size_name": "XL" }
+                ],
+                "color_id": 2,
+                "color_name": "Xanh trời",
+                "product_price": 279000,
+                "product_image1": "16454131255afcc643a69b66c26689dda9181d1c54_thumbnail_900x.webp",
+                "product_image2": "1645413133d534d4842ab0c89cbb2edd272669590e_thumbnail_900x.webp",
+                "product_image3": "1645413131f0602c3612f8dabe2c0356f3e366ffcb_thumbnail_900x.webp",
+                "product_image4": null,
+                "product_image5": null
+            }
+        ],
+        "max_price": 279000,
+        "min_price": 279000,
+        "product_id": 2,
+        "product_name": "Áo sơ mi nữ Nút phía trước Sọc Giải trí",
+        "quantity_sold": 0,
+        "product_discount": 0,
+        "product_description": null
+    }
+]
